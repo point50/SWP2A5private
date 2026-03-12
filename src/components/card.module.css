@@ -1,4 +1,4 @@
-div.card{
+/* div.card{
     width: 250px;
     height: 300px;
     background: white;
@@ -6,12 +6,17 @@ div.card{
     border-radius: 10px;
     padding-top: 10px;
     position: relative;
+    overflow: hidden;
 }
+
+*/
 
 div.cardimg{
     width: 100%;
     height: 70%;
     position: relative;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 div.cardText h3{
