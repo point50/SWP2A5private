@@ -1,6 +1,6 @@
 'use client';
 
-import DataReserve from "@/components/DataReserve";
+import DateReserve from "@/components/DateReserve";
 import { Select, MenuItem, TextField } from "@mui/material";
 
 
@@ -31,7 +31,7 @@ export default function Booking() {
                     <MenuItem value="GrandTable">The Grand Table</MenuItem>
                 </Select>
 
-                <DataReserve/>
+                <DateReserve/>
 
                 <button name = "Book Venue" className="h-10 px-4 bg-indigo-600 !text-white rounded">Book Venue</button>
             </form>
